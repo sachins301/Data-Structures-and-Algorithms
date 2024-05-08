@@ -20,5 +20,27 @@ class MyTestCase(unittest.TestCase):
         print(ll)
         self.assertEqual(11, ll.head.next.data)
 
+    def test_insert2(self):
+        ll = LinkedList()
+        ll.insert(10,0)
+        ll.insert(11, 1)
+        ll.insert(12, 2)
+        self.assertEqual(12, ll.head.next.next.data)
+
+    def test_delete0(self):
+        ll = LinkedList()
+        ll.insert(10,0)
+        ll.insert(11, 1)
+        ll.delete(0)
+        self.assertEqual(11, ll.head.data)
+
+    def test_delete1(self):
+        ll = LinkedList()
+        ll.insert(10, 0)
+        ll.insert(11, 1)
+        ll.delete(1)
+        print(ll)
+        self.assertEqual(None, ll.head.next)
+
 if __name__ == '__main__':
     unittest.main()

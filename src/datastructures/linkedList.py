@@ -22,13 +22,28 @@ class LinkedList:
         else:
             while temp != None and index + 1 != pos:
                 index += 1
-                temp = temp.next()
+                temp = temp.next
 
             if temp != None:
                 new.next = temp.next
                 temp.next = new
             else:
                 print("Out of bounds")
+
+    def delete(self, pos):
+        temp = self.head
+        if pos == 0:
+            self.head = self.head.next
+        else:
+            index = 0
+            while index+1 != pos and temp.next != None:
+                print(index)
+                temp = temp.next
+                index += 1
+            if temp.next != None:
+                temp.next = temp.next.next
+            else:
+                print("Position doesnt exist")
 
     def __str__(self):
         current_node = self.head

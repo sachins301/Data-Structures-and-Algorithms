@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af7ffd6d-8838-4eea-a2c4-fc154900cf1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datastructures/linkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/linkedlisttest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/linkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testing/linkedlisttest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testing/linkedlisttest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +40,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for linkedlisttest.MyTestCase.executor": "Run",
+    "Python tests.Python tests for linkedlisttest.MyTestCase.test_delete0.executor": "Run",
+    "Python tests.Python tests for linkedlisttest.MyTestCase.test_delete1.executor": "Run",
     "Python tests.Python tests for linkedlisttest.MyTestCase.test_insert0.executor": "Run",
     "Python tests.Python tests for linkedlisttest.MyTestCase.test_insert1.executor": "Run",
+    "Python tests.Python tests for linkedlisttest.MyTestCase.test_insert2.executor": "Run",
     "Python tests.Python tests for queuetest.QueueTest.test_enqueue.executor": "Run",
     "Python tests.Python tests in linkedlisttest.py.executor": "Run",
     "Python tests.Python tests in queuetest.py.executor": "Run",
@@ -55,8 +57,8 @@
     "run.code.analysis.last.selected.profile": "aDefault"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for linkedlisttest.MyTestCase.test_insert1">
-    <configuration name="Python tests for linkedlisttest.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for linkedlisttest.MyTestCase.test_delete0">
+    <configuration name="Python tests for linkedlisttest.MyTestCase.test_delete0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="InterviewPreparation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +69,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;linkedlisttest.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;linkedlisttest.MyTestCase.test_delete0&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for linkedlisttest.MyTestCase.test_delete1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPreparation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;linkedlisttest.MyTestCase.test_delete1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -101,7 +118,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in linkedlisttest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for linkedlisttest.MyTestCase.test_insert2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="InterviewPreparation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,32 +129,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testing/linkedlisttest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in queuetest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="InterviewPreparation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testing/queuetest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;linkedlisttest.MyTestCase.test_insert2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for linkedlisttest.MyTestCase.test_delete0" />
+        <item itemvalue="Python tests.Python tests for linkedlisttest.MyTestCase.test_delete1" />
+        <item itemvalue="Python tests.Python tests for linkedlisttest.MyTestCase.test_insert2" />
         <item itemvalue="Python tests.Python tests for linkedlisttest.MyTestCase.test_insert1" />
         <item itemvalue="Python tests.Python tests for linkedlisttest.MyTestCase.test_insert0" />
-        <item itemvalue="Python tests.Python tests in linkedlisttest.py" />
-        <item itemvalue="Python tests.Python tests for linkedlisttest.MyTestCase" />
-        <item itemvalue="Python tests.Python tests in queuetest.py" />
       </list>
     </recent_temporary>
   </component>
